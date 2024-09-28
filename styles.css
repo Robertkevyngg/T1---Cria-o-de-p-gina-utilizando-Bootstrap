@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2.titulo {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.perfume-image {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 20px;
+}
+
+.col-lg-5, .col-md-6 {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.col-lg-5:hover, .col-md-6:hover {
+    transform: scale(1.05);
+}
