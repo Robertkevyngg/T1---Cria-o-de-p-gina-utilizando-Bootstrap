@@ -3,11 +3,14 @@ body {
 }
 
 h1 {
+    font-size: 2rem; 
     text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
+    display: inline-block; 
+    border-bottom: 2px solid black; 
+    padding-bottom: 5px; 
 }
+
+
 
 h2.titulo {
     font-size: 1.75rem;
